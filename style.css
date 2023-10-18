@@ -1,0 +1,283 @@
+    li {
+        list-style: none;
+        margin: 20px 0 20px 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 55px;
+    }
+
+    .col h4{
+        font-size: 20px;
+        color: rgb(127, 136, 143);
+    }
+    
+    .col p{
+        margin-top: 20px;
+        color: rgb(127, 136, 143);
+    }
+
+    .container{
+        margin-top: -15px;
+    }
+
+    .sidebar {
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        margin-left: -300px;
+        transition: 0.4s;   
+    }
+
+    .sidebar li{
+        border-bottom: 1px solid white;
+        margin-bottom: 5px;
+        padding-bottom: 20px;
+    }
+
+    .navbar{
+        margin-top: 10px;
+        margin-left: 230px;
+        margin-bottom: -30px;
+        border-bottom: 5px solid lightblue;
+    }
+    
+
+    #button-toggle{
+        margin-left: 230px;
+        position: relative;
+    }
+
+    .card{
+        margin-left: 230px;
+    }
+
+    .active-main-content {
+        margin-left: -240px;
+    }
+
+    .active-sidebar {
+        margin-left: 0;
+    }
+
+    #main-content {
+        transition: 0.4s;
+    }
+
+    .articletop{
+        margin-top: -15px;
+    }
+
+    article{
+        width: 400px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    article h3, article p{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .action li{
+        margin-top: 30px;
+        margin-left: -32px;
+    }
+
+    .action li a{
+        margin-right: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        background-color: blue;
+    }
+
+    .table-responsive{
+        margin-top: -20px;
+        margin-left: -7px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-style: hidden;
+        margin-top: -20px;
+    }
+    
+    table td, table th {
+        border: 1px solid lightblue;
+    }
+
+    .image {
+        border-radius: 0.375em;
+        border: 0;
+        display: inline-block;
+        position: relative; }
+        .image img {
+          border-radius: 0.375em;
+          display: block; }
+        .image.left, .image.right {
+          max-width: 40%; }
+          .image.left img, .image.right img {
+            width: 100%; }
+        .image.left {
+          float: left;
+          padding: 0 1.5em 1em 0;
+          top: 0.25em; }
+        .image.right {
+          float: right;
+          padding: 0 0 1em 1.5em;
+          top: 0.25em; }
+        .image.fit {
+          display: block;
+          margin: 0 0 2em 0;
+          width: 100%; }
+          .image.fit img {
+            width: 100%; }
+        .image.main {
+          display: block;
+          margin: 0 0 3em 0;
+          width: 100%; }
+          .image.main img {
+            width: 100%; }
+
+        a.image {
+        overflow: hidden; }
+        a.image img {
+          -moz-transition: -moz-transform 0.2s ease;
+          -webkit-transition: -webkit-transform 0.2s ease;
+          -ms-transition: -ms-transform 0.2s ease;
+          transition: transform 0.2s ease; }
+        a.image:hover img {
+          -moz-transform: scale(1.075);
+          -webkit-transform: scale(1.075);
+          -ms-transform: scale(1.075);
+          transform: scale(1.075); }
+    
+          /* #image-container {
+            background-image: url('img/foto_nikoles.jpg');
+            background-size: 350px;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 400px; /
+          } */
+        
+        .card{
+            border: none;
+        }
+        
+        .btn-group{
+            padding-right: 0x;
+            background-color: aquamarine;
+            color: black;
+        }
+
+        .btn-group:hover>.dropdown-menu {
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 10px;
+        }
+
+        .dropdown>.dropdown-toggle:active {
+              pointer-events: none;
+        } 
+
+        #toolscolkiri{
+            text-align: right;
+        }    
+        
+        .tools .row .col{
+            padding: 10px;
+        }
+        
+
+        #containerdesign h5{
+             text-decoration: underline;
+        }
+
+        #design2, #design4{
+            text-align: right;
+        }      
+
+        #design1 h5{
+            margin-left: 45px;
+        }
+
+        #design2 h5{
+            margin-right: 65px;
+        }
+
+        #design3 h5{
+            margin-left: 5px;
+        }
+
+        #design4 h5{
+            margin-right: 20px;
+        }
+
+        /* rgb(255, 227, 183) warna default */
+        #containerdesign {
+            width: 100%;
+            padding: 15px; /* Tambahkan padding sesuai kebutuhan */
+            box-sizing: border-box; /* Untuk memastikan padding tidak menambah lebar total */
+        }
+        
+        #pills-design{
+            background: rgb(255, 255, 255);
+            background: radial-gradient(circle, rgb(219, 253, 251), rgb(255, 255, 255) 85%);  
+        }
+
+        .content{
+            padding: 20px;
+            border: 2px solid rgb(128, 196, 241);
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+
+        .content a{
+            text-decoration: none;
+            color: black;
+            background-color:aquamarine;
+            border-radius: 10px;
+            padding: 10px; 
+        }
+        
+       
+        .contentfront {
+            width: 75%; /* Atur lebar elemen .content sesuai kebutuhan */
+        }
+
+        #container-front{
+            margin: auto;
+            width: 75%;
+            padding: 10px;
+        }
+
+        .buttonfront{
+            background-color: blue;
+            color: white;
+            padding: 4px;
+            border-radius: 10px;
+        }
+
+        .backbuttonfront{
+            margin-top: 10px;
+        }
+
+        #containerothers {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+
+        
